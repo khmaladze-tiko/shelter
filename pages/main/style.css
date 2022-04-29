@@ -1,0 +1,117 @@
+.main-container{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.bg-wrap{
+    background-image: url("../../assets/images/start-screen-gradient-background.jpg");
+    width: 100%;
+    height: 908px;
+    background-position: 0 0;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header {
+    max-width: 1200px;
+    height: 60px;
+    margin: 0 auto;
+    padding-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+h1 {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 110%;
+    color: #F1CDB3;
+    letter-spacing: 0.06em;
+    margin-bottom: 10px;
+}
+header div a h2 {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 0.1em;
+}
+.navbar {
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+}
+.navbar ul {
+    display: flex;
+    flex-direction: row;
+}
+.navbar a {
+    text-decoration: none;
+    color: #FAFAFA;
+    margin-left: 36px;
+    font-size: 15px;
+    line-height: 160%;
+    border: 3px;
+    font-weight: 400;
+}
+.navbar a:hover {
+    border-bottom: solid 3px #F1CDB3;
+}
+
+.first-page{
+    width: 95%;
+    display: flex;
+    margin: 0 auto;
+}
+.first-page-left {
+    max-width: 502px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.first-page-left-text {
+    margin-top: 223px;
+}
+.first-page-left-text h3 {
+    color: #FFFFFF;
+    font-size: 44px;
+    font-weight: 400;
+    max-width: 310px;
+    line-height: 130%;
+}
+.first-page-left-text p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 160%;
+    color: #CDCDCD;
+    max-width: 460px;
+    width: 100%;
+    height: 72px;
+    margin: 42px 0;
+}
+#friend-button {
+    max-width: 207px;
+    height: 52px;
+    background-color: #F1CDB3;
+    padding: 15px 45px;
+    border-radius: 100px;
+    border: none;
+    font-size: 17px;
+    font-weight: 400;
+    text-decoration: none;
+    line-height: 130%;
+    letter-spacing: 00.06em;
+    cursor: pointer;
+    transform: 0.5s;
+}
+#friend-button:hover {
+    background-color: #FDDCC4;
+}
+.first-page-right {
+    max-width: 728px;
+    height: 728px;
+}
+#start-screen-puppy {
+    max-width: 728px;
+    width: 100%;
+    margin-top: 120px;
+}

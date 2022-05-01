@@ -427,7 +427,7 @@ footer {
 .footer-box {
     padding-top: 54px;
     margin: 0 auto;
-    width: 290px;
+    width: 300px;
     margin-left: 0;
 }
 .footer-box h3 {
@@ -456,10 +456,19 @@ footer {
     line-height: 115%;
     letter-spacing: 00.06em;
     color: #F1CDB3;
+    padding-left: 20px;
 }
 .footer-content {
     padding-top: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 .footer-content2 {
     padding-top: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }

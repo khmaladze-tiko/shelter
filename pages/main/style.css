@@ -1,3 +1,21 @@
+@font-face {
+	font-family: 'Georgia';
+	src: url('../../assets/fonts/georgia.ttf');
+	src: local('Georgia Regular'), local('Georgia-Regular'),
+		url('../../assets/fonts/georgia.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Arial';
+	src: url('../../assets/fonts/arial.ttf');
+	src: local('Arial Regular'), local('Arial-Regular'),
+		url('../../assets/fonts/arial.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
 .main-container{
     max-width: 1280px;
     margin: 0 auto;
@@ -27,6 +45,8 @@ h1 {
     color: #F1CDB3;
     letter-spacing: 0.06em;
     margin-bottom: 10px;
+    font-family: 'Georgia';
+font-style: normal;
 }
 header div a h2 {
     color: #FFFFFF;
@@ -34,6 +54,8 @@ header div a h2 {
     font-size: 13px;
     line-height: 15px;
     letter-spacing: 0.1em;
+    font-family: 'Arial';
+font-style: normal;
 }
 .navbar {
     align-items: center;
@@ -44,16 +66,22 @@ header div a h2 {
     display: flex;
     flex-direction: row;
 }
+.first-li {
+    border: 3px;
+    border-bottom: solid 3px #CDCDCD;
+}
 .navbar a {
     text-decoration: none;
-    color: #FAFAFA;
+    color: #CDCDCD;
     margin-left: 36px;
     font-size: 15px;
     line-height: 160%;
     border: 3px;
     font-weight: 400;
+    font-family: 'Arial';
+font-style: normal;
 }
-.navbar a:hover {
+.nav-li:hover {
     border-bottom: solid 3px #F1CDB3;
 }
 
@@ -77,6 +105,8 @@ header div a h2 {
     font-weight: 400;
     max-width: 310px;
     line-height: 130%;
+    font-family: 'Georgia';
+font-style: normal;
 }
 .first-page-left-text p {
     font-size: 15px;
@@ -87,9 +117,11 @@ header div a h2 {
     width: 100%;
     height: 72px;
     margin: 42px 0;
+    font-family: 'Arial';
+font-style: normal;
 }
 #friend-button {
-    max-width: 207px;
+    max-width: 210px;
     height: 52px;
     background-color: #F1CDB3;
     padding: 15px 45px;
@@ -102,6 +134,8 @@ header div a h2 {
     letter-spacing: 00.06em;
     cursor: pointer;
     transform: 0.5s;
+    font-family: 'Georgia';
+font-style: normal;
 }
 #friend-button:hover {
     background-color: #FDDCC4;
@@ -257,6 +291,9 @@ header div a h2 {
     transition: 1s;
     top: 267%;
     margin: 20px;
+}
+.slide-arrow span {
+    margin: 0 150px;
 }
 .leftArrow:hover {
     background: #FDDCC4;
@@ -427,7 +464,7 @@ footer {
 .footer-box {
     padding-top: 54px;
     margin: 0 auto;
-    width: 300px;
+    width: 320px;
     margin-left: 0;
 }
 .footer-box h3 {
@@ -471,4 +508,10 @@ footer {
     justify-content: center;
     align-items: center;
     text-align: center;
+}
+#footer-tel {
+   padding-left: 20px;
+}
+#footer-map {
+    padding-left: 25px;
 }

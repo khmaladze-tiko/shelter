@@ -27,6 +27,7 @@ header {
     height: 120px;
     margin: 0 auto;
     padding-top: 45px;
+    margin-bottom: 20px;
     display: flex;
     justify-content: space-between;
     flex-wrap: nowrap;
@@ -166,6 +167,64 @@ section {
 }
 .learn-more-btn:hover {
     background-color: #FDDCC4;
+}
+
+
+.button-slider{
+    height: 200px;
+    text-align: center;
+    align-items: center;
+    padding-top: 40px;
+}
+.button-slider button {
+    margin: 10px;
+}
+.right-slider-1:hover{
+    background-color: #f1cdb3;
+    cursor: pointer;
+}
+.right-slider-2:hover{
+    background-color: #f1cdb3;
+    cursor: pointer;
+}
+.slider-pagination:hover{
+    cursor: pointer;
+}
+.left-slider-1,
+.left-slider-2{
+    border: 2px solid #CDCDCD;
+    color: #CDCDCD;
+    width: 52px;
+    height: 52px;
+    border-radius: 100px;
+    background-color: transparent;
+    font-size: 20px;
+    letter-spacing: 0.06em;
+    line-height: 115%;
+}
+.slider-pagination{
+    width: 52px;
+    height: 52px;
+    background: #f1cdb3;
+    border-radius: 100px;
+    border: none;
+    color: #292929;
+    letter-spacing: 0.06em;
+    line-height: 115%;
+    font-size: 20px;
+}
+.right-slider-1,
+.right-slider-2 {
+    width: 52px;
+    height: 52px;
+    border-radius: 100px;
+    border: none;
+    color: #292929;
+    border: 2px solid #f1cdb3;;
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 0.06em;
+    line-height: 115%;
 }
 
 

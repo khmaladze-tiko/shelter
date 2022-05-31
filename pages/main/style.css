@@ -579,7 +579,17 @@ footer {
     margin-bottom: 10px;
 }
 
+
 @media only screen and (max-width: 880px){
+    .navbar {
+        display: none;
+    }
+    .burger-menu {
+        display: block;
+    }
+    .menu {
+        display: none;
+    }
     .first-page-right img {
         width: 200px;
         height: 450px;

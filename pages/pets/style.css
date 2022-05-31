@@ -295,5 +295,63 @@ footer {
     padding-left: 25px;
 }
 
+.burger-menu{
+    display: none;
+}
+.menu {
+    display: none;
+}
 
 
+@media only screen and (max-width: 1280px) {
+   
+    header {
+        padding: 20px;
+    }
+    .navbar {
+        margin-top: 30px;
+    }
+    
+    footer {
+        padding: 0 20px;
+    }
+  }
+  .burger-line{
+      width: 30px;
+      height: 2px;
+  
+      background-color: #F1CDB3;
+      margin-top: 10px;
+      margin-bottom: 10px;
+  }
+  
+  @media only screen and (max-width: 880px){
+      
+      .footer-container {
+          flex-wrap: wrap;
+      }
+      .burger-menu {
+          display: block;
+      }
+      .navbar {
+          display: none;
+      }
+  }
+
+  @media only screen and (max-width: 324px) {
+      .navbar {
+          display: none;
+      }
+      .burger-menu{
+          display: block;
+      }
+      .menu {
+          display: none;
+      }
+      
+      .footer-container {
+          flex-wrap: wrap;
+      }
+      
+  }
+  

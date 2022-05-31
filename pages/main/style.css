@@ -48,6 +48,9 @@ h1 {
     font-family: 'Georgia';
 font-style: normal;
 }
+.burger-menu {
+    display: none;
+}
 header div a h2 {
     color: #FFFFFF;
     font-weight: 400;
@@ -567,10 +570,73 @@ footer {
       padding: 0 20px;
   }
 }
+.burger-line{
+    width: 30px;
+    height: 2px;
 
+    background-color: #F1CDB3;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 
+@media only screen and (max-width: 880px){
+    .first-page-right img {
+        width: 200px;
+        height: 450px;
+    }
+    .donation-box{
+        flex-wrap: wrap;
+        max-width: 800px;
+    }
+    .donation-box-pic img{
+        width: 400px;
+        margin: 0;
+        padding: 0;
+    }
+    .donation-info {
+        width: 280px;
+    }
+    .donation-info h3 {
+        font-size: 26px;
+    }
+    .donation-info  a {
+        width: 200px;
+        font-size: 12px;
+    }
+    .donation {
+        padding: 0;
+        margin: 0;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .footer-container {
+        flex-wrap: wrap;
+    }
+}
+@media only screen and (max-width: 685px) {
+    .donation-info h3 {
+        font-size: 20px;
+        height: 30px;
+    }
+    .donation-info h4 {
+        font-size: 14px;
+    }
+    .donation-info a {
+        margin: 0;
+        padding: 0;
+    }
+    .donation-info p {
+        padding: 0;
+    }
+}
 @media only screen and (max-width: 324px) {
     .navbar {
+        display: none;
+    }
+    .burger-menu{
+        display: block;
+    }
+    .menu {
         display: none;
     }
     .first-page-left-text {
@@ -596,6 +662,7 @@ footer {
         margin: 0;
         padding-top: 50px;
     }
+
     .about-shelter-section {
         flex-wrap: wrap;
         margin: 0;
@@ -627,7 +694,7 @@ footer {
         width: 280px;
     }
     .donation-info h3 {
-        font-size: 26px;
+        font-size: 18px;
     }
     .donation-info  a {
         width: 200px;

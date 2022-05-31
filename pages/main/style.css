@@ -84,7 +84,9 @@ font-style: normal;
 .nav-li:hover {
     border-bottom: solid 3px #F1CDB3;
 }
-
+.hide-dog {
+    display: none;
+}
 .first-page{
     width: 95%;
     display: flex;
@@ -518,12 +520,7 @@ footer {
 
 
 @media only screen and (max-width: 1280px) {
-   .leftArrow {
-       display: none;
-   }
-   .rightArrow {
-       display: none;
-   }
+   
   header {
       padding: 20px;
   }
@@ -536,15 +533,114 @@ footer {
   .donation-box {
       justify-content: center;
   }
+  .our-friends-section {
+      max-width: 100%;
+      justify-content: center;
+      margin: 0 auto;
+  }
   .cards-box {
-      max-width: 90%;
-      margin-left: 200px;
+      max-width: 95%;
+      padding-left: 180px;
+      margin: 0;
   }
   #hide-card {
       display: none;
       
   }
+  .donation {
+      max-width: 100%;
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .donation-info {
+    padding: 0;
+    padding-left: 20px;
+  }
+  .donation-box-pic {
+      padding: 0;
+  }
+  .slide-arrow {
+      display: none;
+  }
   footer {
       padding: 0 20px;
   }
+}
+
+
+@media only screen and (max-width: 324px) {
+    .navbar {
+        display: none;
+    }
+    .first-page-left-text {
+        justify-content: center;
+        text-align: center;
+    }
+    .first-page-right {
+        display: none;
+    }
+    .hide-dog {
+        display: block;
+        width: 230px;
+        justify-content: center;
+        align-items: center;
+        padding-left: 50px;
+        margin: 0;
+    }
+    .first-page {
+        flex-wrap: wrap;
+
+    }
+    #start-screen-puppy {
+        margin: 0;
+        padding-top: 50px;
+    }
+    .about-shelter-section {
+        flex-wrap: wrap;
+        margin: 0;
+        padding: 10px;
+    }
+    .about-shelter-left img {
+        margin: 0;
+    }
+    .about-shelter-right p {
+        justify-content: center;
+        text-align: center;
+    }
+    .about-shelter-right h3 {
+        justify-content: center;
+        font-size: 24px;
+        text-align: center;
+    }
+    
+    .donation-box {
+        flex-wrap: wrap;
+        max-width: 320px;
+    }
+    .donation-box-pic img{
+        width: 200px;
+        margin: 0;
+        padding: 0;
+    }
+    .donation-info {
+        width: 280px;
+    }
+    .donation-info h3 {
+        font-size: 26px;
+    }
+    .donation-info  a {
+        width: 200px;
+        font-size: 12px;
+    }
+    .donation {
+        padding: 0;
+        margin: 0;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .footer-container {
+        flex-wrap: wrap;
+    }
+    
 }
